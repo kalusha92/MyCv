@@ -3,21 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <hr>
+    <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="gallary.html">Gallary</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="about.html">About</a>
+    <hr>
 </head>
 <body>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <img src="./asset/kaleb.png" alt="Kaleb Profile Picture" width="170" height="200">
+            </td>
+            <td>
+                <h1>Kaleb Fekadu</h1>
+                <h3>Student, Addis Ababa Institute of Technology </h3>
+                <p>Hi there,</p>
+                <p>I am Kaleb Fekadu, I am <strong>ITSC</strong> student at Addis Ababa Institute of Technology since <em>2018</em>. I am passionate about working in diffrent types of programming languages </p>
+            </td>
+        </tr>
+    </table>
+     <hr>
     <h3>Contact me with the following Information</h3>
     <form action="mailto:kalebfekadu22@gmail.com" method="POST" enctype="utf-8">
-        <label for="name">First Name</label>
-        <input type="text" name="fname" id="fname" required><br>
-        <label for="name">Last Name</label>
-        <input type="text" name="lname" id="lname" required><br>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" required><br>
+        <label for="name" >Name</label>&nbsp; &nbsp;
+        <input type="text" name="fname" id="fname" pattern="[a-z]{3-10}"  placeholder="First Name" required >
+        <input type="text" name="lname" id="lname"  pattern="[a-z]{3-10}" placeholder="Last Name" required ><br>
+        <span class="validity"></span>
+        <label for="email" >Email</label>&nbsp; &nbsp;
+        <input type="email" id="email" name="email" placeholder="someone@.. .com"><br>
+        <label for="Phone" >Phone</label>&nbsp;&nbsp;
+        <input type="tel" id="phone" name="phone"  pattern="[0-9]{10}" placeholder="09********" required><br>
+        <label for="Country">Country:</label>
+
+<select id="country">
+    <option value="">--Select Country--</option>
+    <option value="dog">Ethiopia</option>
+    <option value="cat">USA</option>
+    <option value="hamster">Japan</option>
+    <option value="parrot">China</option>
+    <option value="spider">Sudan</option>
+    <option value="goldfish">Egypt</option>
+</select><br>
         Leave Your Comment here...<br>
         <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
         <br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Send Now">
     </form>
     
 </body>
