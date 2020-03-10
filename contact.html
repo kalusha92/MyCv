@@ -38,22 +38,22 @@
                 <h3>Contact me with the following Information</h3>
                     <form action="mailto:kalebfekadu22@gmail.com" method="POST" enctype="utf-8">
                         <label for="name" >Name</label>&nbsp; &nbsp;
-                        <input type="text" maxlength="32" name="first_name" pattern="[A-Z,a-z]" placeholder="First Name" required>'
-                        <input type="text" maxlength="32" name="last_name" pattern="[A-Za-z]" placeholder="Last Name" required>'<br>
+                        <input type="text" maxlength="32" name="first_name" pattern="[a-zA-Z]{4,8}"  placeholder="First Name" required>'
+                        <input type="text" maxlength="32" name="last_name" pattern="[a-zA-Z]{4,8}" placeholder="Last Name" required>'<br>
                         <span class="validity"></span>
                         <label for="email" >Email</label>&nbsp; &nbsp;
-                        <input type="email" id="email" name="email" placeholder="someone@.. .com"><br>
-                        <label for="Phone" >Phone</label>&nbsp;&nbsp;
+                        <input type="email" id="email" name="email" placeholder="someone@.. .com" required><br>
+                        <label for="Phone" >Phone</label>&nbsp;&nbsp;&nbsp;
                         <input type="tel" id="phone" name="phone"  pattern="[0-9]{10}" placeholder="09********" required><br>
                         <label for="Country">Country:</label>
                         <select id="country">
                         <option value="">--Select Country--</option>
-                        <option value="dog">Ethiopia</option>
-                        <option value="cat">USA</option>
-                        <option value="hamster">Japan</option>
-                        <option value="parrot">China</option>
-                        <option value="spider">Sudan</option>
-                        <option value="goldfish">Egypt</option>
+                        <option value="Ethiopia">Ethiopia</option>
+                        <option value="USA">USA</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                        <option value="Sudan">Sudan</option>
+                        <option value="Egypt">Egypt</option>
                         </select><br>
                         Leave Your Comment here...<br>
                         <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
