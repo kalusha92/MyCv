@@ -1,0 +1,30 @@
+body
+{
+font-size: medium;
+font-style: oblique;
+
+}
+
+
+.header
+{
+    text-transform: uppercase;
+    padding: 20px;
+    border-bottom: solid 6px skyblue;
+    text-align: center;
+    font-size: 30px;
+}
+.p
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+img
+{
+    margin: 1.6666666667% 1.6666666667%;
+    width: 30%;
+    float: left;
+
+    
+}
