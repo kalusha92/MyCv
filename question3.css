@@ -1,0 +1,371 @@
+div
+{
+    margin: 1.6666666667% 1.6666666667%;
+    width: 30%;
+    display: inline;
+    float: left;
+}
+h1
+{
+    font-size: 30px;
+    top: -18%;
+    position: absolute;
+}
+.german-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color: red;
+    position: relative;
+    
+    
+    
+
+}
+.german-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.german-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.armenia-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color: blue;
+    position: relative;
+
+}
+.armenia-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:red;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.armenia-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.austria-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color: white;
+    position: relative;
+
+}
+.austria-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:red;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.austria-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bolivia-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color:yellow;
+    position: relative;
+
+}
+.bolivia-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:red;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.bolivia-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:green;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.belgium-flag
+{
+   
+    padding: 10%;
+    width: 10%;
+    background-color:yellow;
+    position: relative;
+
+}
+.belgium-flag::before
+{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.belgium-flag::after
+{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.benin-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color:green;
+    position: relative;
+
+}
+.benin-flag::before
+{
+    content: "";
+    width: 60%;
+    height: 50%;
+    background-color:yellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.benin-flag::after
+{
+    content: "";
+    width: 60%;
+    height: 50%;
+    background-color:red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.botswana-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color:black;
+    position: relative;
+
+}
+.botswana-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 35%;
+    border-bottom: 10px solid white;
+    background-color:skyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.botswana-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 35%;
+    border-top: 10px solid white;
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.costarica-flag
+{
+       
+    padding: 10%;
+    width: 10%;
+    background-color:red;
+    position: relative;
+
+}
+.costarica-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 20%;
+    border-bottom: 30px solid white;
+    background-color:darkblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.costarica-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 20%;
+    border-top: 30px solid white;
+    background-color: darkblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.japan-flag
+{
+      
+    padding: 10%;
+    width: 10%;
+    background-color:rgb(250, 248, 248);
+    position: relative;
+
+}
+.japan-flag::before
+{
+    content: "";
+    width: 40%;
+    height: 60%;
+    background-color:red;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 50%;
+
+}
+.nigeria-flag
+{
+   
+    padding: 10%;
+    width: 10%;
+    background-color:white;
+    position: relative;
+
+}
+.nigeria-flag::before
+{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:green;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.nigeria-flag::after
+{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.netherland-flag
+{
+   
+    padding: 10%;
+    width: 10%;
+    background-color:white;
+    position: relative;
+
+}
+.netherland-flag::before
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:darkred;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.netherland-flag::after
+{
+    content: "";
+    width: 100%;
+    height: 33.33%;
+    background-color:darkblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.guatemala-flag
+{
+    
+    padding: 10%;
+    width: 10%;
+    background-color:white;
+    position: relative;
+
+}
+.guatemala-flag::before
+{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:skyblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.guatemala-flag::after
+{
+    content: "";
+    width: 33.33%;
+    height: 100%;
+    background-color:skyblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
