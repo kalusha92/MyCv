@@ -1,0 +1,40 @@
+body
+{
+    align-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1 
+{
+    text-align: center;
+}
+td 
+{
+    width: 100px;
+    height: 100px;
+}
+table
+{
+    margin: 5px auto;
+}
+.vert
+{
+    border-left: 4px solid black;
+    border-right: 5px solid black;
+}
+.hori
+{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+.center
+{
+    
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+} 
