@@ -1,18 +1,16 @@
 body
 {
-font-size: medium;
-font-style: oblique;
-
+    margin: 0;
 }
-
-
-.header
+header h3
 {
     text-transform: uppercase;
     padding: 20px;
     border-bottom: solid 6px skyblue;
     text-align: center;
     font-size: 30px;
+    font-size: medium;
+    font-style: oblique;
 }
 .p
 {
@@ -22,9 +20,14 @@ font-style: oblique;
 
 img
 {
-    margin: 1.6666666667% 1.6666666667%;
-    width: 30%;
-    float: left;
-
+    flex: 2 200px;
+    margin: 25px 25px;
     
 }
+
+.gallary
+{
+    display: flex;
+    flex-flow: column wrap;
+}
+

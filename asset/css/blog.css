@@ -47,6 +47,11 @@ img
     float:left;
     margin-right: 30px;
 }
+ul > li
+{
+    list-style: none;
+}
+
 .title
 {
     font-size: 23px;
@@ -72,4 +77,13 @@ article a
 article a:hover
 {
     color: black;
+}
+article p a
+{
+    text-decoration: none;
+    background-color: initial;
+    border: none;
+    color: blue;
+    font-style: normal;
+    font-weight: normal;
 }
