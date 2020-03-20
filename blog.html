@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaleb F / Blog</title>
-    <link rel="stylesheet" href="./asset/css/myworks.css">
     <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/blog.css">
    
 </head>
 <body>
@@ -18,111 +18,72 @@
         <i class="fa fa-caret-down"></i>
        </button>
             <div class="drop-content">
-                <a href="question1.html">Question One</a>
-                <a href="question2.html">Question Two</a>
-                <a href="question3.html">Question Three</a>
+                <a href="question1.html">CSS Selectors</a>
+                <a href="question2.html">Tic Tac Toe</a>
+                <a href="question3.html">Flags</a>
             </div>
         </div>      
     </div>
-    <section id="top">
+    <section>
+    <article>
     <div id="content">
         <p class="title">
-            My First Post
+            Relative Size Or Browser Zooming
         </p>
     
     </div>
-    <article>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-            nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-            </p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                    nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                        nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                        </p>
-     
-        
-    
-    </article>
+     <p>There has been a debate about relative size and browser zoom capability for a long time. Some of the arguments were: “Browsers handle all the font zooming for us, so we don’t have to convert our typography to relative units in CSS. So that users do not bother to adjust the font display settings in the browser!”. On the other hand the arguments for using relative CSS units were: “Yes, browsers handle page zoom for us, yet there’s a difference between how the UI appears when the page is zoomed, depending on whether the default browser size has been adjusted as well, that users do bother to adjust the font display settings in the browser so we need to account for that in our CSS declarations.”</p>
+     <p>I do agree on the second argument. It is self-evident that using relative size for length measurement in CSS solves a set of problems. For instance, when a design change or amendment need making to the code you can write the new value straight in.
+        Principally that em and rem provide some proportional flexibility as you build. Depending upon what you are building, it is an approach that has great merit. When building UI you can combine the way different length units are applied to solve specific problems.</p>  
+     <p>Perhaps ultimately, ‘just use relative size’ is the wrong thing to take away. It’s merely important to understand what each choice will buy you and cost you and make a choice accordingly.</p> 
+      <a href="https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/">Link 1</a>
+      <a href="https://benfrain.com/just-use-pixels/">Link 2</a>
     <p class="date">
-        March 11, 2020 : 3pm
+        March 20, 2020
     </p>
-    </section>
+    </article>
     <!-- Second Post -->
-    <section>
+        <article>
         <div id="content">
             <p class="title">
-                My Second Post
-    
-    
+                Pixels in Browser.
             </p>
+            <p>A pixel is represented by a dot or square on a computer monitor display screen. Pixels are the basic building blocks of a digital image or display and are created using geometric coordinates. Depending on the graphics card and display monitor, the quantity, size and color combination of pixels varies and is measured in terms of the display resolution.</p>
+            <p>For example, a computer with a display resolution of 1280 x 768 will produce a maximum of 98,3040 pixels on a display screen. Each pixel has a unique logical address, a size of eight bits or more and, in most high-end display devices, the ability to project millions of different colors.</p>
+            <p>On a high-resolution device, A CSS ‘px’ unit (which is 1/96 of an inch) may resolve to a fractional number of device pixels. For example, on a 300dppi (device pixel per inch) screen the ratio of device pixels to CSS pixels pixels is 300/96 = 3.125.
+                On a low-resolution device, the specification recommends to “relate the pixel unit to the <a href="https://www.w3.org/TR/css3-values/#reference-pixel">reference pixel</a>  and further advises “that the pixel unit refer to the whole number of device pixels that best approximates the reference pixel”.</p>
+            <p> As a consequence, a CSS inch did not always map to an actual physical inch; if a laptop’s true resolution was 120dppi, a 96px-long inch would end up being 96/120 = 0.8 physical inch!</p>
+            <a href="https://webplatform.github.io/docs/tutorials/understanding-css-units/">Link</a>
         
-    
-    
         </div>
-        <article>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                    nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                        nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                            nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                            </p>
-         
-            
-        
-        </article>
+        <p></p>        
         <p class="date">
-            March 11, 2020 : 3pm
+            March 20, 2020
         </p>
-        </section>
+    </article>
         <!-- Third Post -->
-        <section>
+        <article>
             <div id="content">
                 <p class="title">
-                    My Third Post
-        
-        
+                    
                 </p>
-            
         
-        
-            </div>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                    nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                    </p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                        nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                        </p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                            nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                            </p>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maxime fuga repellat dolore molestias aut 
-                                nobis delectus fugiat ipsa velit modi repudiandae nulla pariatur amet incidunt ea odio, deserunt cumque?
-                                </p>
-             
-                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni non sit aliquam ratione sapiente necessitatibus illo. Voluptatibus, libero et. Nulla esse praesentium magni earum libero maiores dolor animi totam quos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quo aut beatae, incidunt cum tempore vitae. Quod, labore earum nostrum eius dicta molestiae rem illum ipsam aliquid esse iusto ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem nisi eum, harum saepe beatae deserunt eos ducimus delectus. Sint enim atque, perferendis sapiente dignissimos quibusdam ad cumque eos velit!</p>
             
-            </article>
             <p class="date">
                 March 11, 2020 : 3pm
             </p>
+        </article>
             </section>
 
 
 
     </div>
 
+
+    <!-- Footer -->
+    
+    <p class="footer">Developed By Kaleb Fekadu. &copy; 2020</p>
 
 
 </body>
