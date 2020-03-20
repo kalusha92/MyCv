@@ -20,12 +20,12 @@ table
 {
     margin: 5px auto;
 }
-.vert
+.vertical
 {
     border-left: 4px solid black;
     border-right: 5px solid black;
 }
-.hori
+.horizontal
 {
     border-top: 4px solid black;
     border-bottom: 4px solid black;

@@ -7,6 +7,13 @@ body
 {
     overflow: hidden;
     background-color: #333;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    
+    
     
 }
   
@@ -15,15 +22,21 @@ body
     float: left;
     font-size: 16px;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
+    margin: 10px;
+    
+    
 }
   
 .dropdown
 {
-    float: left;
+    
     overflow: hidden;
+    display: inline;
+    padding: 14px 16px; 
+    line-height: 30px;
 }
   
   
@@ -33,7 +46,7 @@ body
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 14px 18px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -50,7 +63,7 @@ body
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -75,4 +88,8 @@ body
 .dropdown:hover .drop-content
 {
     display: block;
+}
+.space
+{
+    text-indent: 10em;
 }
